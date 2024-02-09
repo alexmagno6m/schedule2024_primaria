@@ -40,7 +40,9 @@ app.layout = html.Div([
     html.Div([
         "Para consultar horario de un curso seleccionelo de la lista desplegable: ",
         "Importante. El campo cédula de arriba debe estar vacio",
-        dcc.Dropdown(['301', '302', '303',
+        dcc.Dropdown(['101', '102', '103',
+                      '201', '202', '203',
+                      '301', '302', '303',
                       '401', '402', '403',
                       '501', '502', '503'],
                      id='dia_drop',
