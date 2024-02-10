@@ -52,9 +52,9 @@ app.layout = html.Div([
         style={'width': '40%'}
     ),
     html.Div(
-        ["Las franjas mayoritarias A: 6.30-12.30 y B: 8:20 - 2:20",
+        ["Las franjas mayoritarias A y B",
          html.Br(),
-         "Fueron asignadas por los directivos"]
+         "no son aplicables en primaria"]
     ),
     dash_table.DataTable(
         data=df.to_dict('records'),
