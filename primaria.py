@@ -116,7 +116,7 @@ app.layout = html.Div([
 
     ),
     html.Div([
-        "PA: Bloques de Permanencia, por asignar a Clase o TP; HE: Horas extras. Actualizado: 12/02/24-20:56"
+        "PA: Bloques de Permanencia, por asignar a Clase o TP; HE: Horas extras. Actualizado: 13/02/24-13:48"
     ]),
     html.Div([
         html.H3('Powered by BitSmart | Alexander Acevedo (2016-2024)')
