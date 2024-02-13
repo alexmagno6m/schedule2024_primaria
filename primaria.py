@@ -4,7 +4,7 @@ import urllib.request
 import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
-r = urllib.request.urlopen('https://raw.githubusercontent.com/alexmagno6m/render/main/BD_PRIMARIA_2024_2.csv')
+r = urllib.request.urlopen('https://raw.githubusercontent.com/alexmagno6m/render/main/BD_PRIMARIA_2024_3.csv')
 df = pd.read_csv(r, sep=';')
 #Para convertir la columna cedula de numero a string
 df['CEDULA']=df['CEDULA'].astype(str)
