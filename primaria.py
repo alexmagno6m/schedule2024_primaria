@@ -25,7 +25,7 @@ app.layout = html.Div([
         "Consulte su horario individual "
         "digite su numero de cedula sin puntos ni comas",
         html.Br(),
-        "Si no visualiza su horario Verfique que no tiene ningun curso seleccionado en la",
+        "Si no visualiza su horario Verifique que no tiene ningun curso seleccionado en la",
         " lista desplegable de cursos",
         html.Br(),
         dcc.Input( id='professor_drop',
@@ -116,7 +116,7 @@ app.layout = html.Div([
 
     ),
     html.Div([
-        "PA: Bloques de Permanencia, por asignar a Clase o TP; HE: Horas extras. Actualizado: 13/02/24-13:48"
+        "PA: Bloques de Permanencia, por asignar a Clase o TP; HE: Horas extras. Actualizado: 13/02/24-15:57"
     ]),
     html.Div([
         html.H3('Powered by BitSmart | Alexander Acevedo (2016-2024)')
